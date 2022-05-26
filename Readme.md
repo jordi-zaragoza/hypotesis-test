@@ -31,4 +31,4 @@ You have 2 options:
 
 ### Example
 
-![example](pic.png)
+![example](pic2.png)
