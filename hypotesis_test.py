@@ -83,6 +83,7 @@ def t_student():
     '''
     interact(plot_t_critical_values,          
              t_statistic = widgets.BoundedFloatText(
+                 min = -10,
                  value=2.8,
                  description='T-statistic:',
                  disabled=False,
@@ -138,6 +139,7 @@ def plot_norm_critical_values(t_statistic, alpha=0.05, side="two"):
 def normal():
     interact(plot_norm_critical_values,     
              t_statistic = widgets.BoundedFloatText(
+                 min = -10,
                  value=2.8,
                  description='Z-statistic:',
                  disabled=False,
