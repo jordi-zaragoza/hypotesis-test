@@ -25,10 +25,10 @@ You have 2 options:
 
 ```
 >> import hypotesis-test
->> hypotesis-test.normal() # For normal dist
->> hypotesis-test.t-student() # For t-student dist
+>> hypotesis-test.test('norm) # For normal dist
+>> hypotesis-test.test('t') # For t-student dist
 ```
 
 ### Example
 
-![example](pic2.png)
+![example](pic.png)
